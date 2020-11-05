@@ -1,0 +1,378 @@
+/* 
+style.css
+---------
+Par Hortense Lemaire
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body
+{
+    background-color: #518C86;
+    display: flex;
+    flex-direction: column;
+}
+body p
+{
+    size: 1.5rem;
+}
+.top-section
+{
+    display: flex;
+    flex-direction: row;
+}
+.left-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #C5D1D9;
+}
+.avatar
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.avatar img
+{
+    display: block;
+    max-width: 60%;
+    border-radius: 100%;
+}
+.right-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #518C86;
+    margin-left: 3rem;
+    margin-right: 2.2rem;
+}
+.translate
+{
+    display: flex;
+    flex-direction: row;
+}
+.translate h5
+{
+    font-size: 1.5;
+    text-transform: uppercase;
+    text-align: right;
+    justify-content: right;
+    margin-right: 0.4rem;
+}
+.translate a
+{
+    color: black;
+}
+.translate a:hover
+{
+    color: white;
+}
+.right-div h1
+{
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    font-family: arial;
+}
+.right-div h2
+{
+    font-size: 2.0rem;
+    color: #F2935C;
+    text-transform: uppercase;
+}
+.bottom-section
+{
+    display: flex;
+    flex-direction: row;
+}
+.left-section
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #C5D1D9;
+}
+.left-section h2
+{
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left-section div
+{
+    margin-bottom: 10%;
+}
+.adresse
+{
+    margin-bottom: 10%;
+}
+.adresse li
+{
+    margin-left: 2rem;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%; 
+    text-align: center;
+    font-size: 1.1rem;
+}
+.adresse li i
+{
+    margin-right: 2%;
+    font-size: 1.5rem;
+}
+.adresse a
+{
+    color: black;
+    text-decoration: none;
+}
+.adresse a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.left-section p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.1rem;
+}
+.hobbys ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+    color: black;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+}
+.hobbys li i
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    border: solid 2px;
+    border-radius: 100%;
+    padding: 4px;
+}
+.right-section
+{
+    display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-left: 3rem;
+	margin-right: 2.2rem;
+	margin-bottom: 5.0rem;
+    color: black;
+}
+.right-section h2
+{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right-section h3
+{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.postes h4
+{
+    text-decoration: underline;
+    font-size: 1.15rem;
+}
+.experience
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+.details
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.annees
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 30%;
+}
+.annees2
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.postes
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    width: 70%;
+    margin-left: 10%;
+}
+.diplome
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    width: 70%;
+}
+.right-section p
+{
+    margin-top: 1rem;
+}
+@media all and (max-width: 1000px)
+{
+    body
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    }
+    .top-section
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .avatar img
+    {
+        max-width: 100%;
+    }
+    .left-div
+    {
+        background-color: #518C86;
+    }
+    .bottom-section
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-section
+    {
+        width: auto;
+    }
+    address h2
+    {
+        margin-top: 2rem;
+    }
+    .right-section
+    {
+        width: auto;
+    }
+    .experience h2
+    {
+        margin-top: 2rem;
+    }
+}
+@media all and (max-width: 700px)
+{
+    body
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    }
+    .top-section
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .avatar img
+    {
+        max-width: 130%;
+        margin-bottom: 1rem;
+    }
+    .right-div
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    .right-div h1
+    {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        font-family: arial;
+    }
+    .right-div h2
+    {
+        font-size: 1.3rem;
+        margin-top: 0.5rem;
+    }
+    .right-section
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .experience
+    {
+        margin-right: 1rem;
+    }
+
+}
