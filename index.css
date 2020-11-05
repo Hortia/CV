@@ -345,7 +345,7 @@ body p
     }
     .avatar img
     {
-        max-width: 130%;
+        max-width: 100%;
         margin-bottom: 1rem;
     }
     .right-div
