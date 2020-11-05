@@ -59,7 +59,7 @@ body
 }
 body p
 {
-    size: 1.5rem;
+    font-size: 1rem;
 }
 .top-section
 {
@@ -103,7 +103,7 @@ body p
 }
 .translate h5
 {
-    font-size: 1.5;
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-align: right;
     justify-content: right;
@@ -346,12 +346,10 @@ body p
     .avatar
     {
         max-width: 100%;
-        max-height: auto;
     }
     .avatar img
     {
         max-width: 100%;
-        max-height: auto;
         margin-bottom: 1rem;
     }
     .right-div
