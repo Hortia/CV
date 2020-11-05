@@ -346,10 +346,12 @@ body p
     .avatar
     {
         max-width: 100%;
+        max-height: auto;
     }
     .avatar img
     {
         max-width: 100%;
+        max-height: auto;
         margin-bottom: 1rem;
     }
     .right-div
