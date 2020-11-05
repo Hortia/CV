@@ -343,6 +343,10 @@ body p
         align-items: center;
         justify-content: center;
     }
+    .avatar
+    {
+        max-width: 100%;
+    }
     .avatar img
     {
         max-width: 100%;
